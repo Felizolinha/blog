@@ -1,6 +1,6 @@
 = What to expect from 1.4!
 
-:hp-tags: TGB's Extension, Update
+:hp-tags: TGB's Extension,Update
 
 [%hardbreaks]
 *Hey!* I've been working on some cool new features to TGB's Extension 1.4, they include:
