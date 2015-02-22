@@ -5,7 +5,7 @@
 [%hardbreaks]
 *Hey!* I've been working on some cool new features to TGB's Extension 1.4, they include:
 
-"Query Parameter (parameter name)"::
+"Query Parameter (parameter)"::
 
 It acts just like the *$_GET* method in *PHP*.
 Each parameter is set in the url by using the following format: +
