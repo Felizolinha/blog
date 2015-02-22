@@ -2,4 +2,15 @@
 
 :hp-tags: TGB's Extension
 
-This is a test post.
+[%hardbreaks]
+I've been working on some cool new features to TGB's Extension 1.4, they include:
+
+- The "Query Parameter (parameter name)" block.
+
+It acts just like the $_GET method in PHP.
+Each parameter is set in the url by using the following format: +
+?<param>=<value>&<paramN>=<value>
+
+Example:
+URL: http://scratch.mit.edu/projects/41561058/?holidayspecial=false +
+Block output when using "holidayspecial" as a parameter: false
