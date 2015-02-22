@@ -261,11 +261,8 @@ ul ol, ol ul {
 dl dt {
     float: left;
     width: 180px;
-    overflow: hidden;
     clear: left;
     text-align: right;
-    text-overflow: ellipsis;
-    white-space: nowrap;
     font-weight: 700;
     margin-bottom: 1em;
 }
