@@ -31,10 +31,10 @@ In many Scratch games today, you can observe *strange behavior* when you leave t
 "Browser Language"::
 It is an alternative to the *"User Language"* block that *returns the language used in the browser*, not Scratch. As some people use Scratch in languages other than their native one *(me included)*, I thought this could be useful in determining the *real* user's language!
 
-*Sensing* blocks will only work when the Flash player is focused.::
-This new behavior will fix a security hole that allowed people to *steal passwords* by recording key presses from *outside* the player.
+*Sensing* blocks will be more secure.::
+They will only work when the Flash player is focused. This new behavior will fix a security hole that allowed people to *steal passwords* by recording key presses from *outside* the player.
 
-The "atan2" block will work as expected.::   +
+The "atan2" block will work as expected.::
 This block originally had it's input values *inverted (x was being used in place of y and vice-versa)* but now it works as intended!
 
 Update Warnings!::
