@@ -2,8 +2,17 @@
 
 :hp-tags: TGB's Extension,Update
 
-[%hardbreaks]
 *Hey!* I've been working on some cool new features to TGB's Extension 1.4, they include:
+
+The "Custom Hash (hash number)" block::
+
+It returns any hashes(chosen by number) in the URL that aren't one of these -> *[#editor, #player, #fullscreen]*
++
+
+*TIP:* This block doesn't really work well because Scratch removes *any* extra hashes from the URL after switching viewing modes. I tried to work around this limitation but it pollutes the history a LOT with the hash changes which makes it really hard to switch viewing modes through the back and forward buttons.
++
+This block *might* be removed from the final release. If it's removed, I'll only add it back when the Scratch Team changes the way they handle hashes on the project pages (when they stop removing the extra hashes).
+
 
 The "Query Parameter (parameter)" block::
 
@@ -14,15 +23,6 @@ Each parameter is set in the url by using the following format: +
 Example: +
 *URL*: http://scratch.mit.edu/projects/41561058/?holidayspecial=false +
 Block output when using *holidayspecial* as a parameter: *false*
-
-The "Custom Hash (hash number)" block::
-
-It returns any hashes(chosen by number) in the URL that aren't one of these -> *[#editor, #player, #fullscreen]*
-+
-
-*TIP:* This block doesn't really work well because Scratch removes *any* extra hashes from the URL after switching viewing modes. I tried to work around this limitation but it pollutes the history a LOT with the hash changes which makes it really hard to switch viewing modes through the back and forward buttons.
-+
-This block *might* be removed from the final release. If it's removed, I'll only add it back when the Scratch Team changes the way they handle hashes on the project pages (when they stop removing the extra hashes).
 
 The "Is tab visible?" block::
 
