@@ -38,4 +38,4 @@ The "atan2" block will work as expected.::
 This block originally had it's input values *inverted (x was being used in place of y and vice-versa)* but now it works as intended!
 
 Update Warnings!::
-It must be really *frustrating* to have to check the forum post *every* time to find out if there is an update, so I decided to include an *update warning* to tell you when there is a *new* version of *TGB's Extension*!
+It must be really frustrating to have to check the forum post *every* time to find out if there is an update, so I decided to include an *update warning* to tell you when there is a *new* version of *TGB's Extension*!
