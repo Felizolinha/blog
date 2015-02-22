@@ -5,28 +5,30 @@
 [%hardbreaks]
 I've been working on some cool new features to TGB's Extension 1.4, they include:
 
-- The "Query Parameter (parameter name)" block.
+The "Query Parameter (parameter name)" block.::
 
-[%hardbreaks]
 It acts just like the *$_GET* method in *PHP*.
 Each parameter is set in the url by using the following format: +
-``*?<param>=<value>&<paramN>=<value>*``
+`*?<param>=<value>&<paramN>=<value>*`
 
 Example: +
 *URL*: http://scratch.mit.edu/projects/41561058/?holidayspecial=false +
 Block output when using *holidayspecial* as a parameter: *false*
 
-- The "Custom Hash (hash number)" block.
+The "Custom Hash (hash number)" block.::
 
-[%hardbreaks]
-It returns any hashes in the URL that aren't one of these -> [#editor, #player, #fullscreen]
-This block doesn't really work well because Scratch removes *any* extra hashes from the URL after switching viewing modes.
+It returns any hashes in the URL that aren't one of these -> [#editor, #player, #fullscreen] +
+TIP: This block doesn't really work well because Scratch removes *any* extra hashes from the URL after switching viewing modes. + 
++
 This block *might* be removed from the final release.
 
-- *Sensing* blocks will only work when the *Flash player* is *focused*.
+The "Is tab visible?" block.::
 
-This new behavior will prevent people from stealing passwords by recording key presses from outside the player.
+It reports *true* if the tab is visible to the user. This block can be useful to prevent glitches when a tab is not active. +
+In many Scratch games today, you can observe *strange behavior* when you leave them running on a different tab, specially when it involves *cloning* stuff. Their scripts kind of *stop running* when the tab isn't active and run everything in bulk when the tab becomes active again.
 
-- *atan2* will work as expected!
+*Sensing* blocks will only work when the Flash player is focused.::
+This new behavior will fix a security hole that allowed people to *steal passwords* by recording key presses from *outside* the player.
 
-This block originally had it's input values inverted (x was being used in place of y and vice-versa) but now it works as intended!
+atan2 will work as expected!::
+This block originally had it's input values *inverted (x was being used in place of y and vice-versa)* but now it works as intended!
