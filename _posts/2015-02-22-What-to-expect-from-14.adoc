@@ -4,6 +4,18 @@
 
 *Hey!* I've been working on some cool new features to TGB's Extension 1.4, they include:
 
+Update Warnings!::
+It must be really frustrating to have to check the forum post *every* time to find out if there is an update, so I decided to include an *update warning* to tell you when there is a *new* version of *TGB's Extension*!
+
+Auto-Install (Thanks to GrannyCookies)!::
+Yes, you read it right, you no longer have to click a button to install the extensions each time, they will install automatically!
+*PS:* This feature is still in beta, there are some cases which the extensions won't install.
+
+Random Defaults for Menus::
+Most libraries will now display random defaults for the dropdowns each time you initialize a project! +
+Example: +
+The *Red/Green/Blue of (color)* will now display *pure* Red/Green/Blue each time you initialize the extensions. Also, if the color is *red*, it will default to the *"Red of"* option.
+
 The "Custom Hash (hash number)" block::
 
 It returns any hashes(chosen by number) in the URL that aren't one of these -> *[#editor, #player, #fullscreen]*
@@ -38,6 +50,3 @@ They will only work when the Flash player is focused. This new behavior will fix
 
 The "atan2" block will work as expected.::
 This block originally had it's input values *inverted (x was being used in place of y and vice-versa)* but now it works as intended!
-
-Update Warnings!::
-It must be really frustrating to have to check the forum post *every* time to find out if there is an update, so I decided to include an *update warning* to tell you when there is a *new* version of *TGB's Extension*!
